@@ -1,17 +1,28 @@
 [
 	{
-		"img":"img/1.jpg",
+		"img":"img/rojo.png",
 		"nombre":"equipo1",
 		"tipo":"dev"
 	},
 	{
-		"img":"img/2.jpg",
+		"img":"img/rojo.png",
 		"nombre":"equipo2",
 		"tipo":"progr"
 	},
 	{
-		"img":"img/3.jpg",
+		"img":"img/verde.png",
 		"nombre":"equipo3",
 		"tipo":"senior"
+	},
+    {
+		"img":"img/verde.png",
+		"nombre":"equipo4",
+		"tipo":"dev"
+	},
+    {
+		"img":"img/vacio.png",
+		"nombre":"equipo6",
+		"tipo":"dev"
 	}
+    
 ]
