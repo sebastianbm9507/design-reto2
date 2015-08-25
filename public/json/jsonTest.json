@@ -1,0 +1,17 @@
+[
+	{
+		"img":"img/1.jpg",
+		"nombre":"adrian",
+		"tipo":"dev"
+	},
+	{
+		"img":"img/2.jpg",
+		"nombre":"raquel",
+		"tipo":"progr"
+	},
+	{
+		"img":"img/3.jpg",
+		"nombre":"luis",
+		"tipo":"senior"
+	}
+]

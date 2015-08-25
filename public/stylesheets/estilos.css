@@ -1,0 +1,72 @@
+/*
+Contenedor Total de la pantalla
+*/
+
+.container {
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    background: gray;
+}
+
+/*
+Contenedor principal de la pantalla
+*/
+
+.main_container {
+    margin-left: 225px;
+}
+
+/*
+Contenedor del header
+*/
+
+.header {
+    background: green;
+    height: 80px;
+}
+
+/*
+
+Contenedor del sub-header
+*/
+
+.sub-header {
+    background: cyan;
+    height: 120px;
+}
+.sub-header nav ul {
+    padding-top: 30px;
+    text-align: center;
+    margin: 0px;
+}
+.sub-header nav ul li {
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+}
+
+/*
+Propiedades :
+Contenedor izquierdo de la pantalla
+*/
+
+.sidebar {
+    width: 150px;
+    height: 100%;
+    padding: 10px;
+    float: left;
+    background: red;
+}
+.sidebar nav ul li {
+    margin-top: 30px;
+    list-style-type: none;
+    
+    
+}
+.sidebar nav ul li a{
+    text-align: center;
+    text-decoration: none;
+    
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS</title>
+    <link rel="stylesheet" href="stylesheets/estilos.css">
+</head>
+
+<body ng-app="tabla_juegos">
+    <!--   Div Principal-->
+    <div class="container">
+        <!--     Header de la pagina-->
+        <div class="header">
+            <h1>Competitivo</h1>
+        </div>
+        <!-- sub-header    -->
+        <div class="sub-header">
+            <nav>
+                <ul>
+                    <li>Modalidad</li>
+                    <li>Rush</li>
+                    <li>Single Elimination</li>
+                    <li>vs</li>
+                    <li>grupos</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="sidebar">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="">buy in</a>
+                    </li>
+                    <li>
+                        <a href="">Nivel</a>
+                    </li>
+                    <li>
+                        <a href="">Modo Juego</a>
+                    </li>
+                    <li>
+                        <a href="">Locacion</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!--        Div principal-->
+        <div class="main_container" ng-controller="ctrl_principal">
+            <h1>tabla</h1>
+            <table border="2">
+                <thead>
+                    <tr>
+                        <th>image</th>
+                        <th>nombre</th>
+                        <th>tipo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="item in data">
+                        <td><img ng-src="{{item.img}}" width="30px"></td>
+                        <td>{{item.nombre}}</td>
+                        <td>{{item.tipo}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</body>
+<!--
+        CARGA DE LIBRERIAS
+-->
+<script type="text/javascript" src="libs/jquery.js"></script>
+<script type="text/javascript" src="libs/angular.min.js"></script>
+<script type="text/javascript" src="libs/jquery.dataTables.js"></script>
+<script type="text/javascript" src="libs/angular-datatables.js"></script>
+<!--
+        ESTILOS CSS
+-->
+<link rel="stylesheet" type="text/css" href="stylesheets/jquery.dataTables.css">
+
+<script type="text/javascript" src="javascripts/app.js"></script>
+
+
+</html>
