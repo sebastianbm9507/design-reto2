@@ -2,26 +2,46 @@
 	{
 		"img":"img/rojo.png",
 		"nombre":"equipo1",
+        "coins" :"300",
+        "premio": "8k",
+        "juego" : "draft",
+        "pais": "EUW",
 		"tipo":"dev"
 	},
 	{
 		"img":"img/rojo.png",
 		"nombre":"equipo2",
+        "coins" :"30",
+        "premio": "489k",
+        "juego" : "draft",
+        "pais": "KR",
 		"tipo":"progr"
 	},
 	{
 		"img":"img/verde.png",
 		"nombre":"equipo3",
+        "coins" :"23",
+        "premio": "1k",
+        "juego" : "draft",
+        "pais": "KR",
 		"tipo":"senior"
 	},
     {
 		"img":"img/verde.png",
 		"nombre":"equipo4",
+        "coins" :"44",
+        "premio": "82k",
+        "juego" : "draft",
+        "pais": "KR",
 		"tipo":"dev"
 	},
     {
 		"img":"img/vacio.png",
 		"nombre":"equipo6",
+        "coins" :"12",
+        "premio": "4k",
+        "juego" : "draft",
+        "pais": "KR",
 		"tipo":"dev"
 	}
     

@@ -83,19 +83,24 @@
 
            
           
-            <table border="2" class="tabla">
+            <table border="1"  class="tabla">
                 <thead>
                     <tr>
-                        <th>image</th>
-                        <th>nombre</th>
-                        <th>tipo</th>
+                        <th width="2"><img src="img/1.png" alt=""></th>
+                        <th width="50"><img src="img/nombre.png" alt=""></th>
+                        <th width="30px"><img src="img/coins.png" alt=""></th> <th width="30px"><img src="img/premio.png" alt=""></th>
+                        <th width="30px"><img src="img/juego.png" alt=""></th>
+                        <th width="30px"><img src="img/pais.png" alt=""></th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr ng-repeat="item in data">
                         <td><img ng-src="{{item.img}}" width="30px"></td>
                         <td>{{item.nombre}}</td>
-                        <td>{{item.tipo}}</td>
+                        <td>{{item.coins}}</td> 
+                         <td>{{item.premio}}</td>  
+                          <td>{{item.juego}}</td>  
+                          <td>{{item.pais}}</td>
                     </tr>
                 </tbody>
             </table>

@@ -199,8 +199,17 @@ Contenedor izquierdo de la pantalla
     margin-left: -29px;
     color: gray;
 }
-table.tabla {
+
+/*
+            ESTILOS DE LA TABLA
+*/
+.tabla {
     width: 70%;
+    
+}
+.tabla th {
+   background: #2CA517;
+    
 }
 .options {
     padding:
