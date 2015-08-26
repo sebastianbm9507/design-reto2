@@ -76,6 +76,7 @@ Contenedor del sub-header
     height: 65px;
     background: #999999;
     overflow: hidden;
+    border-radius: 0px 10px;
 /*
      -webkit-transform: skew(20deg);
      -moz-transform: skew(20deg);
@@ -87,21 +88,33 @@ Contenedor del sub-header
     
   
 }
+.sub-header nav#modalidades ul li:first-child{
+    border: none;
+    background: none;
+    clear: both;
+    color: white;
+    letter-spacing: 1px;
+
+    
+}
 .sub-header nav#modalidades ul li {
     border: 2px groove rgba(76, 53, 53, 0.54);
     display: inline-block;
     text-align: center;
     padding: 15px;
     margin-top: 6px;
-    margin-left: 10px;
+/*    margin-left: 10px;*/
 
-     border: 3px solid #555; 
-     background: #428bca;
+/*     border: 3px solid ; */
+     background: BABBBA;
+/*    border-radius: 0px 10px 10px 10px;*/
+/*
      -webkit-transform: skew(20deg);
      -moz-transform: skew(20deg);
      -ms-transform: skew(20deg);
      -o-transform: skew(20deg);
      transform: skew(20deg);
+*/
 }
 
 .options nav {
