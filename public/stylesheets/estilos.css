@@ -1,3 +1,5 @@
+body {}
+
 /*
 Contenedor Total de la pantalla
 */
@@ -22,8 +24,16 @@ Contenedor del header
 */
 
 .header {
+    /*    FONDO*/
     background: green;
     height: 80px;
+    text-align: left;
+}
+.header h1 {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 35px;
+    border-bottom: 4px solid gray;
 }
 
 /*
@@ -35,44 +45,83 @@ Contenedor del sub-header
     background: cyan;
     height: 120px;
 }
+
+/*
+.sub-header nav {
+    padding-top: 35px;
+    margin: 0px;
+    padding-left: 169px;
+}
+*/
+/*Estilo GLobal de los UL*/
 .sub-header nav ul {
+    list-style-type: none;
+    width: 471px;
+    /*    border: 3px solid black;*/
     padding-top: 30px;
     text-align: center;
     margin: 0px;
+    /*    background-color: white;*/
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 10px;
+    text-align: left;
 }
-.sub-header nav ul li {
-    border: 2px solid black;
+.sub-header nav#modalidades {
+    padding-top: 31px;
+    padding-left: 170px
+}
+.sub-header nav#modalidades ul li {
+    border: 2px groove rgba(76, 53, 53, 0.54);
     display: inline-block;
     text-align: center;
     padding: 15px;
+    margin: 0px;
+}
+.options nav {
+    border: 3px solid black;
+    width: 476px;
+    padding: 0px;
+    margin-left: 170px;
+}
+.options nav ul li {
+    display: inline-block;
+}
+.options nav ul li input {
+    border-radius: 10px;
+    background: #B0C7C7;
+}
+
+}
+
+/*NAV DEL OPTIONS*/
+nav.options-nav {
+    margin: 0px;
+    padding: 0px;
 }
 
 /*
 Propiedades :
 Contenedor izquierdo de la pantalla
 */
-
 .sidebar {
     width: 150px;
     height: 290px;
     padding: 10px;
     float: left;
     background: red;
-    
 }
 .sidebar nav ul li {
     margin-top: 30px;
     list-style-type: none;
-    
-    
 }
-.sidebar nav ul li a{
+.sidebar nav ul li a {
     text-align: center;
     text-decoration: none;
-    
 }
-
 table.tabla {
     width: 70%;
-    
+}
+.options {
+    padding:
 }
