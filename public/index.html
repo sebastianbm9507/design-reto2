@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>CSS</title>
+    <title>Competicion | Torneos</title>
     <link rel="stylesheet" href="stylesheets/estilos.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
@@ -70,7 +70,7 @@
             </nav>
         </div>
         <!--        Div principal-->
-        <div class="main_container" ng-controller="ctrl_principal">
+        <div class="main_container" >
            <div class="sub_container">
             <ul>
                 <li><input type="button"></li>
@@ -81,29 +81,9 @@
                
            </div>
 
-           
+           <div ng-view=""></div>
           
-            <table border="1"  class="tabla">
-                <thead>
-                    <tr>
-                        <th width="2"><img src="img/1.png" alt=""></th>
-                        <th width="50"><img src="img/nombre.png" alt=""></th>
-                        <th width="30px"><img src="img/coins.png" alt=""></th> <th width="30px"><img src="img/premio.png" alt=""></th>
-                        <th width="30px"><img src="img/juego.png" alt=""></th>
-                        <th width="30px"><img src="img/pais.png" alt=""></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr ng-repeat="item in data">
-                        <td><img ng-src="{{item.img}}" width="30px"></td>
-                        <td>{{item.nombre}}</td>
-                        <td>{{item.coins}}</td> 
-                         <td>{{item.premio}}</td>  
-                          <td>{{item.juego}}</td>  
-                          <td>{{item.pais}}</td>
-                    </tr>
-                </tbody>
-            </table>
+            
         </div>
     </div>
 
@@ -113,6 +93,7 @@
 -->
 <script type="text/javascript" src="libs/jquery.js"></script>
 <script type="text/javascript" src="libs/angular.min.js"></script>
+<script type="text/javascript" src="libs/angular-route.js"></script>
 <script type="text/javascript" src="libs/jquery.dataTables.js"></script>
 <script type="text/javascript" src="libs/angular-datatables.js"></script>
 <!--
