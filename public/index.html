@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <title>CSS</title>
     <link rel="stylesheet" href="stylesheets/estilos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
 </head>
 
 <body ng-app="tabla_juegos">
@@ -16,6 +18,10 @@
         </div>
         <!-- sub-header    -->
         <div class="sub-header">
+           
+           <div class="refresh">
+               <i class="fa fa-spinner"></i>
+           </div>
             
             <div class="options">
                 
@@ -48,23 +54,23 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="">buy in</a>
+                        <a  href=""><i class="fa fa-circle-o-notch"></i> Buy in</a>
                     </li>
                     <li>
-                        <a href="">Nivel</a>
+                        <a href=""><i class="fa fa-circle-o-notch">   </i>  Nivel</a>
                     </li>
                     <li>
-                        <a href="">Modo Juego</a>
+                        <a href=""><i class="fa fa-circle-o-notch"></i> Modo Juego</a>
                     </li>
                     <li>
-                        <a href="">Locacion</a>
+                        <a href=""><i class="fa fa-circle-o-notch"></i> Locacion</a>
                     </li>
                 </ul>
             </nav>
         </div>
         <!--        Div principal-->
         <div class="main_container" ng-controller="ctrl_principal">
-            <h1>tabla</h1>
+            <h1>Torneos</h1>
             <table border="2" class="tabla">
                 <thead>
                     <tr>
