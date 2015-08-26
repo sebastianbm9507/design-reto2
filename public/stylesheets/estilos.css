@@ -1,4 +1,6 @@
-body {}
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
 /*
 Contenedor Total de la pantalla
@@ -117,6 +119,12 @@ Contenedor del sub-header
      transform: skew(20deg);
 */
 }
+.sub-header nav#modalidades ul li:hover {
+ 
+    background: gray;
+    color: white;
+    
+}
 .options nav {
     /*    border: 3px solid black;*/
     width: 476px;
@@ -148,6 +156,10 @@ Contenedor del sub-header
     background: #EFEFEF;
     height: 33px;
     width: 33px
+}
+.options nav ul li input:hover {
+  background: gray;
+    color: white;
 }
 
 }
@@ -207,6 +219,9 @@ table.tabla {
 .refresh i {
     color: gray;
 }
+.refresh i:hover {
+    color: dimgray;
+}
 .sub_container {
     width: 100%;
 }
@@ -234,4 +249,7 @@ table.tabla {
     height: 16px;
     width: 16px;
     margin-top: 19px;
+}
+.sub_container ul li input:hover {
+    background: #E0D91C;
 }
