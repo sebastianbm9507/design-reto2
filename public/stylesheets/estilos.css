@@ -211,6 +211,11 @@ Contenedor izquierdo de la pantalla
    background: #2CA517;
     
 }
+.tabla td:hover {
+   background:  #2CA517;
+    color: white;
+    
+}
 .options {
     padding:
 }
