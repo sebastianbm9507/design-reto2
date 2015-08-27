@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
+    
+    background: #313333;
 }
 
 /*
@@ -11,6 +13,7 @@ Contenedor Total de la pantalla
     width: 100%;
     height: 100%;
     /*    background: gray;*/
+/*    background: #414242;*/
 }
 
 /*
@@ -21,7 +24,8 @@ Contenedor principal de la pantalla
     /*    margin-left: 225px;*/
 }
 .main_container h1 {
-    margin: 10px;
+    margin: 10px groove white;
+    color: white;
     /*    float: left;*/
 }
 
@@ -31,15 +35,16 @@ Contenedor del header
 
 .header {
     /*    FONDO*/
-    /*    background: green;*/
+/*        background: #999999;*/
     height: 80px;
     text-align: left;
+    color: white;
 }
 .header h1 {
     margin: 0px;
     padding: 0px;
     padding-top: 35px;
-    border-bottom: 4px solid gray;
+    border-bottom: 4px groove white;
 }
 
 /*
@@ -125,6 +130,13 @@ Contenedor del sub-header
     color: white;
     
 }
+
+.actual {
+    background: white;
+    color: black;
+    font-weight: 400;
+    
+}
 .options nav {
     /*    border: 3px solid black;*/
     width: 476px;
@@ -205,14 +217,15 @@ Contenedor izquierdo de la pantalla
 */
 .tabla {
     width: 70%;
+    color: white;
     
 }
 .tabla th {
-   background: #2CA517;
+   background: #F78B03;
     
 }
 .tabla td:hover {
-   background:  #2CA517;
+   background:  #F78B03;
     color: white;
     
 }

@@ -13,9 +13,29 @@ app.controller('ctrl_principal',function($http,$scope, $window , $location){
 
 //Controlador de eventos
 app.controller('ctrl_events', function ($scope , $window , $location) {
+
+
     
+    $scope.alert = function(ob) {
+//        alert(ob.type);
+        alert("Esta opcion aun esta en desarrolo , Gracias");
+    }
     
+    $scope.singleElimination = function (param) {
+        $location.path("/singleElimination");
+    }
     
+    $scope.rush = function (param) {
+        $location.path("/");
+    }
+    
+    $scope.vs = function (param) {
+        $location.path("/vs")
+        
+    }
+    $scope.grupos = function (param) {
+        $location.path("/groups")
+    }
 })
 
 // CONFIG DEL SITIO
@@ -28,6 +48,14 @@ app.config(function ($routeProvider) {
     .when("/singleElimination" , {
         controller:"ctrl_principal",
         templateUrl:"../templates/single.html"
+    })
+        .when("/vs" , {
+        controller:"ctrl_principal",
+        templateUrl:"../templates/vs.html"
+    })
+        .when("/groups" , {
+        controller:"ctrl_principal",
+        templateUrl:"../templates/grupos.html"
     })
     .otherwise({
         reditecTo : "/"

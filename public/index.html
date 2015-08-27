@@ -9,7 +9,7 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
 </head>
 
-<body ng-controller="ctrl_principal">
+<body ng-controller="ctrl_events">
     <!--   Div Principal-->
     <div class="container">
         <!--     Header de la pagina-->
@@ -28,13 +28,13 @@
             <nav class="options-nav">
                 <ul>
                     <li>
-                        <input type="button" value="1" ng-click="alert()">
+                        <input type="button" value="1"  id="2" ng-click="alert(this)">
                     </li>
                     <li>
-                        <input type="button" value="2">
+                        <input type="button" value="2"  id="2" ng-click="alert(this)">
                     </li>
                     <li>
-                        <input type="button" value="3">
+                        <input type="button" value="3" id="2" ng-click="alert(this)">
                     </li>
                 </ul>
             </nav>
@@ -42,11 +42,11 @@
 
             <nav id="modalidades">
                 <ul>
-                    <li ng-click="">Modalidad</li>
-                    <li ng-click="">Rush</li>
-                    <li>Single Elimination</li>
-                    <li ng-click="">vs</li>
-                    <li ng-click="">grupos</li>
+                    <li>Modalidad</li>
+                    <li ng-click="rush(this)">Rush</li>
+                    <li ng-click="singleElimination(this)">Single Elimination</li>
+                    <li ng-click="vs(this)">vs</li>
+                    <li ng-click="grupos(this)">grupos</li>
                 </ul>
             </nav>
         </div>
@@ -102,6 +102,7 @@
 <link rel="stylesheet" type="text/css" href="stylesheets/jquery.dataTables.css">
 
 <script type="text/javascript" src="javascripts/app.js"></script>
+<script type="text/javascript" src="javascripts/prueba.js"></script>
 
 
 </html>

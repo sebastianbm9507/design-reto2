@@ -1,0 +1,18 @@
+  <table border="1"  class="tabla">
+                <thead>
+                    <tr>
+                        <th width="2"><img src="img/1.png" alt=""></th>
+                        <th width="50"><img src="img/nombre.png" alt=""></th>
+                        <th width="30px"><img src="img/coins.png" alt=""></th> 
+                     
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="item in data">
+                        <td><img ng-src="{{item.img}}" width="30px"></td>
+                        <td>{{item.nombre}}</td>
+                        <td>{{item.coins}}</td> 
+                       
+                    </tr>
+                </tbody>
+            </table>
